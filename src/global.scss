@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    background: #e5e6f0;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, button, label {
+    font-family: Roboto, sans-serif;
+}
+
+
+
+.breadcrumb {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    .breadcrumb-item {
+        padding: 5px;
+        list-style: none;
+    }
+}

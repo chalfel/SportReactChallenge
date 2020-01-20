@@ -1,0 +1,53 @@
+
+
+td {
+    width: 150px;
+    border: none;
+    height: 50px;
+    padding-left: 20px;
+}
+tr + tr {
+    background-color: #fff;
+    .delete-button {
+        border: none;
+        background-color: transparent;
+        .button-icon {
+            display: none;
+        }
+    }
+}
+tr + tr:nth-child(odd) {
+    background:#F9F9F8
+}
+tr + tr:hover {
+    background-color: #E3E4E3;
+    .button-block {
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        .delete-button {
+            width: 10px;
+            border-radius: 6px;
+            border: none;
+            padding-left: 20px;
+            background-color: transparent;
+            cursor: pointer;
+            .button-icon {
+                display:inline;
+            }
+        }
+    }
+}
+
+
+a {
+    text-decoration: none;
+    color: #1CB89A;
+}
+
+#city-data {
+    color: #1CB89A;
+}
+
+
+
